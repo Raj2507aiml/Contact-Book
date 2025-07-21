@@ -71,9 +71,7 @@ def menu():
         print("4. Update Contact")
         print("5. Delete Contact")
         print("6. Exit")
-
         choice = input("Enter your choice (1-6): ")
-
         if choice == '1':
             add_contact()
         elif choice == '2':
